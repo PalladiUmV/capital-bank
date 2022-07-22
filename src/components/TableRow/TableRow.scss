@@ -1,0 +1,46 @@
+.table {
+	overflow-x: auto;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 10px;
+
+	thead {
+
+		th {
+			padding: 5px 0 5px 10px;
+			text-align: left;
+			border: 1px solid black;
+			color: black;
+		}
+
+		th:last-child {
+			border: none;
+		}
+	}
+
+
+
+	tbody {
+
+		td {
+			border: 1px solid black;
+			padding: 10px 0 20px 5px;
+			vertical-align: top;
+			width: 300px;
+		}
+
+		td:last-child {
+			border: none;
+			cursor: pointer;
+			vertical-align: middle;
+			text-align: center;
+		}
+	}
+
+
+
+
+}

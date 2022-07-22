@@ -1,0 +1,49 @@
+.app {
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: 15% 75%;
+  grid-auto-rows: auto auto auto;
+  column-gap: 10px;
+  row-gap: 30px;
+  padding: 10px 10px;
+}
+
+.header {
+  text-align: center;
+  grid-column: 2 / 3;
+  grid-row: 1 / 1;
+
+  &__input {
+    padding: 3px 0 3px 20px;
+  }
+}
+
+
+.container {
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+
+  .table-handler {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .add,
+  .send {
+    cursor: pointer;
+  }
+}
+
+.menu {
+  grid-column: 1 / 1;
+  grid-row: 1 / 4;
+  padding: 100px 10px 0 10px;
+}
+
+.menu>div {
+  border-bottom: 1px solid #000;
+}
+
+.footer {
+  text-align: center;
+}
